@@ -1,0 +1,44 @@
+/* phil welsby 17 aug 2021*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    font-size: 30px;
+}
+
+h2 {
+    /*background-color:goldenrod;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 55px;
+}
+
+.middle {
+    /*background-color: coral;*/
+    /*background-color: lightcoral;*/
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    /*background-color:lightgreen;*/
+}
+button {
+    font-size: 50px;
+    background-color: red;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+}
