@@ -2,7 +2,7 @@
 
 const intro = require("./intro");
 
-console.log(intro.playerName);
+//console.log(intro.playerName);
 //const dog = require("./dog");
 
 //console.log(dog.description);
