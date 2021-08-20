@@ -3,6 +3,6 @@
 const intro = require("./intro");
 const dog = require("./dog");
 
-console.log(dog.description);
+//console.log(dog.description);
 
 
