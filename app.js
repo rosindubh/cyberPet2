@@ -3,4 +3,6 @@
 const buttons = require("./buttons");
 
 console.log(buttons);
-console.log(buttons.add(2,2));
+console.log(buttons.intro);
+console.log(buttons.playerName);
+
