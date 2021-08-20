@@ -12,6 +12,8 @@ module.exports = {
     noOfFunctions: 0
 }
 
+// webpage on how to use createInterface
+// https://www.tabnine.com/code/javascript/functions/readline/createInterface
 
 // below code borrowed from: https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/
 const readline = require("readline");
