@@ -13,6 +13,7 @@ module.exports = {
 }
 
 
+// below code borrowed from: https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/
 const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
