@@ -1,4 +1,4 @@
-// phil welsby 20 aug 2021
+// phil welsby 20 aug 2021 - Intro to cyberPet2
 
 const intro = "Hello and welcome to cyberPet2";
 const playerName = "Enter your name to continue";
