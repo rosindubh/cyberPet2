@@ -2,6 +2,22 @@
 
 const intro = "intro";
 
+let readline = require('readline');
+let fs = require('fs');
+
+let myInterface = readline.createInterface( {
+  input: fs.createReadStream('welcomePage.txt')
+});
+
+let lineno = 0;
+myInterface.on('line', function (line) {
+  lineno++;
+  console.log(line);
+});
+
+
+//const intro = "intro";
+
 module.exports = {
     intro,
 //    playerName,
@@ -13,7 +29,7 @@ module.exports = {
 // https://www.tabnine.com/code/javascript/functions/readline/createInterface
 
 // below code borrowed from: https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/
-const readline = require("readline");
+//const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
