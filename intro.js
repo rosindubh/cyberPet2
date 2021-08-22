@@ -1,13 +1,10 @@
 // phil welsby 20 aug 2021 - Intro to cyberPet2
 
-const intro = "Hello and welcome to cyberPet2";
-const playerName = "Enter your name to continue";
-
-const name = "buttons";
+const intro = "intro";
 
 module.exports = {
     intro,
-    playerName,
+//    playerName,
     desc: "This is the buttons function page",
     noOfFunctions: 0
 }
