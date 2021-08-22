@@ -36,9 +36,9 @@ const rl = readline.createInterface({
 });
 
 rl.question("What is your name ? ", function(name) {
-    console.log("Which animal would you like to be? Cat   Dog   or   Rabbit");
+    console.log("Which animal would you like to be? \nCat   Dog   or   Rabbit");
     rl.question("Enter your choice here: ", function(choice) {
-        console.log(`${name}, has chosen to be a ${choice}`);
+        console.log(`${name}, the ${choice} is now your cyberPet`);
         rl.close();
     });
 });
