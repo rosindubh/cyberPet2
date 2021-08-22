@@ -35,7 +35,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question("What is your name ? ", function(name) {
+rl.question("\n\n\n", function(name) {
     console.log("Which animal would you like to be? \nCat   Dog   or   Rabbit");
     rl.question("Enter your choice here: ", function(choice) {
         console.log(`${name}, the ${choice} is now your cyberPet`);

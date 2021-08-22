@@ -1,6 +1,12 @@
 Hello and welcome to cyberPet2
+
 cyberPet2 is a fully interactive text based game
-where you have to give your pet food, dtrink and
+where you have to give your pet food, drink and
 entertaiment or it will become very upset and keep
 asking you for these things.
+
+You can choose to ba a Cat a Dog or a Rabbit
+I hope you have as much fun playing cyberPet2 as 
+I did making it.
+
 Enter you pets name here:
