@@ -9,12 +9,14 @@ let myInterface = readline.createInterface( {
   input: fs.createReadStream('welcomePage.txt')
 });
 
+
+function greeting() {
 let lineno = 0;
 myInterface.on('line', function (line) {
   lineno++;
   console.log(line);
 });
-
+}
 
 //const intro = "intro";
 
@@ -47,4 +49,7 @@ rl.question("\n\n\n", function(name) {
 //    console.log("\nBYE BYE !!!");
 //    process.exit(0);
 //});
+
+
+greeting();
 
