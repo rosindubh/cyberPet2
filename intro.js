@@ -23,7 +23,7 @@ myInterface.on('line', function (line) {
 module.exports = {
     intro,
 //    playerName,
-    desc: "This is the buttons function page",
+    desc: "This is the intro page",
     noOfFunctions: 0
 }
 
@@ -38,9 +38,9 @@ const rl = readline.createInterface({
 });
 
 rl.question("\n\n\n", function(name) {
-    console.log("Which animal would you like to be? \nCat   Dog   or   Rabbit");
+    console.log("\nWhich animal would you like to be? \nCat   Dog   or   Rabbit\n");
     rl.question("Enter your choice here: ", function(choice) {
-        console.log(`${name}, the ${choice} is now your cyberPet`);
+        console.log(`\n${name}, the ${choice} is now your cyberPet`);
         rl.close();
     });
 });
